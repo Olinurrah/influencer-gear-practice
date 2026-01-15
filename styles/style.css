@@ -1,0 +1,235 @@
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-btn-color: #E02C6D;
+    --primary-heading-text-color: #3A3A3A;
+    --card-heading-color: #18191F;
+    --card-description-color:#787885;
+
+
+
+}
+/* shard styles */
+a , h1, h2{
+    color: var(--primary-heading-text-color);
+}
+
+/* 
+# */
+
+
+
+/* in html styles */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* main style */
+/* header styles start */
+
+header{
+    max-width: 1200px;
+    margin: 50px auto;
+    
+}
+#navbar{
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.Influencer-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-heading-text-color);
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    /* margin-right: 2.3rem; */
+
+}
+.menu ul li, .icon{
+    margin-left: 2.3rem;
+
+}
+a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner-info-container{
+    text-align: left;
+    margin: 145px 0;
+    width: 582px;
+    height: 270px;
+    /* gap: 1.5rem; */
+}
+.banner-info-container .h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-info-container p{
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.btn-1{
+    padding: 1rem 2rem;
+    background-color: var(--primary-btn-color);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: 1.8rem;
+}
+
+.banner-image-container{
+    margin: 131px auto;
+    background-image: url(/images/Circle\ design.svg);
+    /* width: 475px;
+    height: 475px; */
+}
+.banner-image-container img{
+   width: 450px;
+   height: 450px;
+    
+}
+/* header style end */
+/* sponsors area style  */
+
+#sponsors{
+     max-width: 1100px;
+     margin: 50px auto;
+    
+    
+}
+.sponsors-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    /* max-width: 1100px; */
+    height: 110px;
+    border: 1px solid #FF6600;
+}
+/* popular collection styles */
+.Popular-Collection-container{
+    max-width: 1050px;
+    
+}
+.h2{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 3rem auto;
+}
+.collection-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.collection-card{
+    border: 1px solid rosybrown;
+    width: 330px;
+    height: 476px;
+
+}
+.collection-card img{
+    width: 300px;
+    height: 256px;
+    margin: 1rem;
+
+}
+.collection-card .product-name{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.collection-card .product-prise{
+    font-size: 1.5rem;
+    font-weight: 400;
+     margin-left: 1rem;
+}
+.collection-card .product-rating{
+    font-size: 1rem;
+    font-weight: 300;
+     margin-left: 1rem;
+
+}
+.collection-card .text-h5{
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+     margin-left: 1rem;
+}
+/* Featured-container style */
+#Featured-container{
+    max-width: 1110px;
+    margin: 100px auto;
+}
+#Featured-container .img{
+    width: 404px;
+    height: 227px;
+    margin-right: 100px;
+} 
+
+.feature-info {
+    max-width: 610px;
+}
+.feature-info .feature-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0A0826;
+}
+.feature-info .feature-description{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/* footer */
+footer{
+    /* height: 250px; */
+    padding: 100px;
+    text-align: center;
+    /* margin: 4rem auto; */
+   
+    background: #0A0826;
+}
+footer .footer-info-heading{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1.1rem;
+}
+footer small{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+     margin-bottom: 1.1rem;
+}
+footer .footer-social{
+    justify-content: center;
+    gap: 1rem;
+    color: #ffffff;
+}
