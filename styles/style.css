@@ -265,6 +265,22 @@ header #navbar,
     flex-direction: column;
     
 }
+.Influencer-logo{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.menu li{
+    font-size: 12px;
+    padding: 5px;
+    background-color: #E02C6D;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.icon{
+    
+    margin: 10px auto;
+}
 #banner{
     display: flex;
     flex-direction: column-reverse;
@@ -301,9 +317,10 @@ header{
 .sponsors-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    border: none;
 
     gap: 30px;
-    margin: 100px 10px;
+    margin: 50px 20px 100px 20px;
 
 }
 
