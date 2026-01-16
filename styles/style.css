@@ -59,14 +59,27 @@ header{
     font-weight: bold;
     color: var(--primary-heading-text-color);
 }
+.Influencer-logo:hover{
+     border-bottom: 1px solid var(--primary-btn-color);
+     transition: 1s;
+
+}
 .menu ul{
     display: flex;
     list-style: none;
-    /* margin-right: 2.3rem; */
-
+    
 }
 .menu ul li, .icon{
     margin-left: 2.3rem;
+}
+.menu a:hover{
+     border-bottom: 1px solid var(--primary-btn-color);
+     transition: 1s;
+
+}
+.icon:hover{
+     border-bottom: 1px solid var(--primary-btn-color);
+     transition: 1s;
 
 }
 a{
@@ -80,7 +93,7 @@ a{
     margin: 145px 0;
     width: 582px;
     height: 270px;
-    /* gap: 1.5rem; */
+  
 }
 .banner-info-container .h1{
     font-size: 3.5rem;
@@ -101,12 +114,17 @@ a{
     border-radius: 30px;
     margin-top: 1.8rem;
 }
+.btn-1:hover{
+    border: 1px solid var(--primary-btn-color);
+    color: var(--primary-heading-text-color);
+    background: #ffffff;
+    transition: 1s;
+}
 
 .banner-image-container{
     margin: 131px auto;
     background-image: url(/images/Circle\ design.svg);
-    /* width: 475px;
-    height: 475px; */
+  
 }
 .banner-image-container img{
    width: 450px;
@@ -126,13 +144,14 @@ a{
     display: flex;
     justify-content: space-around;
     align-items:center ;
-    /* max-width: 1100px; */
+   
     height: 110px;
     border: 1px solid #FF6600;
 }
 /* popular collection styles */
-.Popular-Collection-container{
+#Popular-Collection-container{
     max-width: 1050px;
+    margin: 50px auto;
     
 }
 .h2{
@@ -141,7 +160,8 @@ a{
     text-align: center;
     margin: 3rem auto;
 }
-.collection-card-container{
+#Popular-Collection-container .collection-card-container{
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -149,9 +169,11 @@ a{
     
 }
 .collection-card{
-    border: 1px solid rosybrown;
+   
     width: 330px;
     height: 476px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
 
 }
 .collection-card img{
@@ -209,10 +231,10 @@ a{
 
 /* footer */
 footer{
-    /* height: 250px; */
+    max-width: 1100px;
     padding: 100px;
     text-align: center;
-    /* margin: 4rem auto; */
+    margin: 4rem auto;
    
     background: #0A0826;
 }
