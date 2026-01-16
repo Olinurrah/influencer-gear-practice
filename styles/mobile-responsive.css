@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+
+
+    /* sheard style */
+/* header,
+#navbar,
+.collection-card-container{display: flex;
+flex-direction: column;
+
+}
+ */
+
+
+    /* main style */
+
+    
+}
+.collection-card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr)
+}
+
+#;

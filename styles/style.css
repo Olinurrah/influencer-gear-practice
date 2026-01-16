@@ -164,7 +164,7 @@ a{
    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
     gap: 20px;
     
 }
@@ -254,4 +254,78 @@ footer .footer-social{
     justify-content: center;
     gap: 1rem;
     color: #ffffff;
+}
+/* #banner */
+
+/* respon for mobile */
+@media screen and (max-width:576px) {
+header #navbar,
+.menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+#banner{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+header{
+    position: relative;
+
+    
+}
+.banner-image-container{
+    max-width: 576px;
+}
+.banner-image-container img{
+    width: 202px;
+    height: 188px;
+}
+.banner-info-container{
+    text-align: center;
+    width: 404px;
+    height: 222px;
+}
+.banner-info-container .h1{
+    font-size: 28px;
+    margin: 0;
+}
+.banner-info-container p{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 321px;
+    text-align: center;
+}
+
+.sponsors-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 30px;
+    margin: 100px 10px;
+
+}
+
+#Popular-Collection-container .collection-card-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.collection-card{
+    width: 100%;
+    margin: 0 auto;
+}
+#Featured-container{
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#Featured-container img{
+    width: 300px;
+    height: 188px;
+   margin: 30px 30px 50px 30px;
+}
+
+
+
+
 }
